@@ -14,7 +14,7 @@ function hambre(){
     }
     if (ancho < 100){
         document.getElementById("barra").style.backgroundColor = "green"
-        document.getElementById("perro").src = "/mascota.png"
+        document.getElementById("perro").src = "/Mascota.png"
 
     }
     if (ancho < 50){
