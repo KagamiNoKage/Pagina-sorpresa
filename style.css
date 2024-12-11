@@ -1,0 +1,49 @@
+*{
+    color: white;
+}
+button{
+    color: black;
+    display: block;
+    margin: auto;
+    padding: 10px;
+    font-size: 50px;
+    border: 3px solid;
+    border-color: rgb(0, 0, 0);
+    border-radius: 10px;
+    background-color: rgb(155, 153, 153);
+}
+button:hover{
+    background-color: grey;
+    cursor: pointer;
+}
+p{
+    font-size: 30px;
+}
+body{
+    background-color: rgba(0, 0, 0, 0.833);
+}
+.barra{
+    background-color: green;
+    width: 100%;
+    height: 30px;
+}
+#restart{
+    visibility: hidden;
+}
+
+.perro{
+    z-index: 1;
+    width: 200px;
+    display: block;
+    margin: auto;
+}
+.fondo{
+    background-image:url(/fondo2.jpeg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    display: block;
+    margin: auto;
+    width: 50%;
+    
+}
